@@ -1,0 +1,19 @@
+{
+  "name": "hap-vue-todomvc",
+  "version": "1.0.0",
+  "subversion": {
+    "toolkit": "0.3.0-beta.1"
+  },
+  "description": "",
+  "scripts": {
+    "build": "hap build",
+    "release": "hap release",
+    "server": "hap server",
+    "watch": "hap watch"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "hap-toolkit": "0.3.0-beta.1",
+    "quickapp-dsls": "~0.0.1"
+  }
+}

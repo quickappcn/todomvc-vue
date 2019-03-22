@@ -1,0 +1,36 @@
+{
+  "package": "com.application.demo",
+  "name": "todomvc",
+  "versionName": "1.0.0",
+  "versionCode": "1",
+  "minPlatformVersion": "101",
+  "icon": "/common/logo.png",
+  "features": [
+    { "name": "system.prompt" },
+    { "name": "system.router" },
+    { "name": "system.shortcut" },
+    { "name": "system.storage" }
+  ],
+  "permissions": [
+    { "origin": "*" }
+  ],
+  "config": {
+    "logLevel": "log",
+    "dsl": {
+      "name": "vue"
+    }
+  },
+  "router": {
+    "entry": "index",
+    "pages": {
+      "index": {
+        "component": "index"
+      }
+    }
+  },
+  "display": {
+    "titleBarBackgroundColor": "#f2f2f2",
+    "titleBarTextColor": "#414141",
+    "menu": true
+  }
+}

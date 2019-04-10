@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.3.4",
-    "hap-toolkit": "0.3.0-beta.1",
-    "quickapp-dsls": "~0.0.1"
+    "hap-toolkit": "^0.4.1",
+    "quickapp-dsls": "^0.1.1"
   }
 }
